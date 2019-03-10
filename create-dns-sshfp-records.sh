@@ -6,7 +6,7 @@
 FQDN="$(hostname)"
 SSHCONF="/etc/ssh"
 
-CIPHERS=([1]='rsa' 'dsa' 'ecdsa')
+CIPHERS=([1]='rsa' 'dsa' 'ecdsa' 'ed25519')
 HASHALGOS=([1]='sha1' 'sha256')
 
 
